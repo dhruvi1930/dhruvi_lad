@@ -25,7 +25,7 @@ function Home() {
 
           <div className="container large">
             <h2>Featured Projects</h2>
-            <a href="#/">View All</a>
+            <a href="/projects">View All</a>
             <img
               src={project_banner}
               alt="project_banner"
