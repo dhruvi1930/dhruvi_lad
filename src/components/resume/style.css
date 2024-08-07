@@ -5,6 +5,10 @@
   text-align: center;
   margin: 30px;
   border-radius: 10px;
+  color: #fff;
+}
+h1 {
+  color: #fff;
 }
 
 .main-container {

@@ -3,27 +3,27 @@ import project_banner from "../../asset/projects.png";
 
 function Home() {
   return (
-    <div className="content-container">
-      <div className="top-bar-container">
+    <div className="home-container">
+      <div className="heading-container">
         <h1>Computer Engineer</h1>
         <p>
           <a href="mailto:dhruvihl369@gmail.com">Contact Me</a>
         </p>
       </div>
-      <div className="content">
-        <div className="wrapper-container">
+      <div className="home-content-container">
+        <div className="content-wrapper-container">
           <div className="small-container">
-            <div className="container small">
+            <div className="inner-container small">
               <b>3 years</b> <br />
               Developing Experience
             </div>
-            <div className="container small">
+            <div className="inner-container small">
               Full Stack <br />
               Developer
             </div>
           </div>
 
-          <div className="container large">
+          <div className="inner-container large">
             <h2>Featured Projects</h2>
             <a href="/projects">View All</a>
             <img
@@ -33,8 +33,8 @@ function Home() {
             />
           </div>
         </div>
-        <div className="wrapper-container">
-          <div className="container medium">
+        <div className="content-wrapper-container">
+          <div className="inner-container medium">
             <h2>Expertise Area</h2>
             <ul>
               <li>Web Development</li>
@@ -43,7 +43,7 @@ function Home() {
               <li>Technical Support</li>
             </ul>
           </div>
-          <div className="container medium">
+          <div className="inner-container medium">
             <h2>Recommendations</h2>
             <ul>
               <li>Pat</li>

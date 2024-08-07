@@ -3,9 +3,10 @@
   background-color: #1f1e1d;
   min-height: 100vh;
   overflow-x: hidden;
+  background-image: radial-gradient(#6804a5, #0b0a0a);
 }
 
-.content-container {
+.right-container {
   flex: 1;
   padding: 20px;
 }

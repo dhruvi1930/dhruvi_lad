@@ -3,7 +3,7 @@ import logo from "../../asset/logo.jpg";
 import {
   faBook,
   faDatabase,
-  faEarth,
+  // faEarth,
   faGear,
   faCoffee,
 } from "@fortawesome/free-solid-svg-icons";
@@ -34,10 +34,10 @@ function Sidebar() {
           <FontAwesomeIcon icon={faDatabase} />
           <p>Projects</p>
         </NavLink>
-        <NavLink className="menu" to="/about" activeClassName="active">
+        {/* <NavLink className="menu" to="/about" activeClassName="active">
           <FontAwesomeIcon icon={faEarth} />
           <p>About</p>
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );

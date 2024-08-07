@@ -1,19 +1,14 @@
-/* style.css */
-.projects-container {
-  padding: 20px;
-}
-
 .projects-container h1 {
   margin-bottom: 20px;
 }
 
-.wrapper-main-container {
+.lll {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
-.wrapper-container {
+.project-wrapper-container {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
@@ -22,18 +17,18 @@
   background-color: #000;
 }
 
-.wrapper-container:hover {
+.project-wrapper-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.wrapper-container img {
+.project-wrapper-container img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.wrapper-container h4 {
+.project-wrapper-container h4 {
   margin: 15px;
   font-size: 18px;
 }

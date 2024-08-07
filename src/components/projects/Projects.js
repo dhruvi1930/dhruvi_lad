@@ -11,8 +11,8 @@ function Projects() {
   return (
     <div className="projects-container">
       <h1>Projects</h1>
-      <div className="wrapper-main-container">
-        <div className="wrapper-container">
+      <div className="lll">
+        <div className="project-wrapper-container">
           <img src={Application_Tracker} alt="Application Tracker" />
           <h4>Application Tracker</h4>
           <div className="skills-container">
@@ -23,7 +23,7 @@ function Projects() {
           </div>
           <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
         </div>
-        <div className="wrapper-container">
+        <div className="project-wrapper-container">
           <img src={Marry_Me} alt="Marry Me" />
           <h4>Marry Me</h4>
           <div className="skills-container">
@@ -34,7 +34,7 @@ function Projects() {
           </div>
           <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
         </div>
-        <div className="wrapper-container">
+        <div className="project-wrapper-container">
           <img src={Black_Friday_Trends} alt="Black Friday Trends" />
           <h4>Black Friday Trends</h4>
           <div className="skills-container">
@@ -46,7 +46,7 @@ function Projects() {
           </div>
           <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
         </div>
-        <div className="wrapper-container">
+        <div className="project-wrapper-container">
           <img src={ImaginifyAI} alt="ImaginifyAI" />
           <h4>ImaginifyAI</h4>
           <div className="skills-container">
@@ -56,7 +56,7 @@ function Projects() {
           </div>
           <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
         </div>
-        <div className="wrapper-container">
+        <div className="project-wrapper-container">
           <img src={Jelly_Beans} alt="Jelly Beans" />
           <h4>Jelly Beans</h4>
           <div className="skills-container">

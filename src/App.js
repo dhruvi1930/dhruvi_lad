@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="app-container">
         <Sidebar />
-        <div className="content-container">
+        <div className="right-container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/resume" element={<Resume />} />
