@@ -1,4 +1,5 @@
 import "./style.css";
+import project_banner from "../../asset/projects.png";
 
 function ContentArea() {
   return (
@@ -10,27 +11,48 @@ function ContentArea() {
         </p>
       </div>
 
-      <div className="top-content-container">
-        <div className="small-container">
-          <div className="experience-container">
-            2 year developing experience
+      <div className="content">
+        <div className="wrapper-container">
+          <div className="small-container">
+            <div className="container small">
+              <b> 3years</b> <br />
+              Developing Experience
+            </div>
+            <div className="container small">
+              Full Stack <br />
+              Developer
+            </div>
           </div>
-          <div className="profession-container">Full Stack Developer</div>
+
+          <div className="container large">
+            <h2>Featured Projects</h2>
+            <a href="#/">View All</a>
+            <img
+              src={project_banner}
+              alt="project_banner"
+              id="project_banner"
+            />
+          </div>
         </div>
-        <div className="expertise-container">
-          <ul>
-            <li>Web Development</li>
-            <li>Web Design</li>
-            <li>Website Design</li>
-            <li>Technical Support</li>
-          </ul>
+        <div className="wrapper-container">
+          <div className="container medium">
+            <h2>Expertise Area</h2>
+            <ul>
+              <li>Web Development</li>
+              <li>Web Design</li>
+              <li>Website Design</li>
+              <li>Technical Support</li>
+            </ul>
+          </div>
+          <div className="container medium">
+            <h2>Recommendations</h2>
+            <ul>
+              <li>Pat</li>
+              <li>Baljeet</li>
+            </ul>
+          </div>
         </div>
       </div>
-
-      {/* <div>
-        <div className="project-container"></div>
-        <div className="recommendation-container"></div>
-      </div> */}
     </div>
   );
 }

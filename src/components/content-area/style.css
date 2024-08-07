@@ -3,22 +3,155 @@
   flex-direction: column;
   padding: 20px;
   color: #fff;
-
+  justify-content: center;
   background-image: radial-gradient(#6804a5, #0b0a0a);
+  min-height: 100vh;
 }
 
 .top-bar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.top-bar-container h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
 }
 
 .top-bar-container a {
   color: #1880db;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+  text-decoration: none;
 }
 
-.top-content-container {
+.content {
   display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.small-container {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  background-color: #000;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.container:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.container.small {
+  width: 200px;
+  height: 150px;
+}
+
+.container.medium {
+  width: 400px;
+  height: 220px;
+  flex-grow: 1;
+}
+
+.container.large {
+  width: 500px;
+  height: 300px;
+  flex-grow: 1;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container a {
+  color: #1880db;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+#project_banner {
+  width: 400px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .container.small {
+    width: 150px;
+    height: 100px;
+  }
+
+  .container.medium {
+    width: 100%;
+    height: auto;
+  }
+
+  .wrapper-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar-container h1 {
+    font-size: 1.5em;
+  }
+
+  .top-bar-container a {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 20px;
+    font-size: 1em;
+  }
+
+  .container h2 {
+    font-size: 1.2em;
+  }
+
+  .container a {
+    font-size: 14px;
+  }
 }
