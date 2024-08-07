@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dhruvi_lad/static/css/main.f3578a70.css",
+    "main.js": "/dhruvi_lad/static/js/main.286c0d5b.js",
+    "static/js/453.80bd2521.chunk.js": "/dhruvi_lad/static/js/453.80bd2521.chunk.js",
+    "static/media/Marry Me.png": "/dhruvi_lad/static/media/Marry Me.3db25e9710bb1b5b6e4f.png",
+    "static/media/Jelly Beans.png": "/dhruvi_lad/static/media/Jelly Beans.23dd922ad2086e199571.png",
+    "static/media/logo.jpg": "/dhruvi_lad/static/media/logo.f472fee3f45787e2c768.jpg",
+    "static/media/Application Tracker.png": "/dhruvi_lad/static/media/Application Tracker.f26c6c7b854a0d85e50b.png",
+    "static/media/ImaginifyAI.png": "/dhruvi_lad/static/media/ImaginifyAI.37a1fc6178b07d2c15af.png",
+    "static/media/projects.png": "/dhruvi_lad/static/media/projects.ba991401123601505ea0.png",
+    "static/media/BlackfridayTrends.png": "/dhruvi_lad/static/media/BlackfridayTrends.2aaeae4ac5033a954b85.png",
+    "index.html": "/dhruvi_lad/index.html",
+    "main.f3578a70.css.map": "/dhruvi_lad/static/css/main.f3578a70.css.map",
+    "main.286c0d5b.js.map": "/dhruvi_lad/static/js/main.286c0d5b.js.map",
+    "453.80bd2521.chunk.js.map": "/dhruvi_lad/static/js/453.80bd2521.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3578a70.css",
+    "static/js/main.286c0d5b.js"
+  ]
+}
