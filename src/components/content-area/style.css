@@ -1,0 +1,24 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: #fff;
+
+  background-image: radial-gradient(#6804a5, #0b0a0a);
+}
+
+.top-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-bar-container a {
+  color: #1880db;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.top-content-container {
+  display: flex;
+}
