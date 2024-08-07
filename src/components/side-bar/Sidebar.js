@@ -8,6 +8,7 @@ import {
   faCoffee,
 } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
+import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -17,26 +18,26 @@ function Sidebar() {
         <p>Dhruvi Lad</p>
       </div>
       <div className="menu-container">
-        <div className="menu">
+        <NavLink className="menu" exact to="/" activeClassName="active">
           <FontAwesomeIcon icon={faCoffee} />
           <p>Home</p>
-        </div>
-        <div className="menu">
+        </NavLink>
+        <NavLink className="menu" to="/resume" activeClassName="active">
           <FontAwesomeIcon icon={faBook} />
-          <p>Education</p>
-        </div>
-        <div className="menu">
+          <p>Resume</p>
+        </NavLink>
+        <NavLink className="menu" to="/experience" activeClassName="active">
           <FontAwesomeIcon icon={faGear} />
           <p>Experience</p>
-        </div>
-        <div className="menu">
+        </NavLink>
+        <NavLink className="menu" to="/projects" activeClassName="active">
           <FontAwesomeIcon icon={faDatabase} />
           <p>Projects</p>
-        </div>
-        <div className="menu">
+        </NavLink>
+        <NavLink className="menu" to="/about" activeClassName="active">
           <FontAwesomeIcon icon={faEarth} />
           <p>About</p>
-        </div>
+        </NavLink>
       </div>
     </div>
   );

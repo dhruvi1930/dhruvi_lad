@@ -2,8 +2,10 @@
   display: flex;
   background-color: #1f1e1d;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .content-container {
   flex: 1;
+  padding: 20px;
 }

@@ -1,7 +1,7 @@
 import "./style.css";
 import project_banner from "../../asset/projects.png";
 
-function ContentArea() {
+function Home() {
   return (
     <div className="content-container">
       <div className="top-bar-container">
@@ -10,12 +10,11 @@ function ContentArea() {
           <a href="mailto:dhruvihl369@gmail.com">Contact Me</a>
         </p>
       </div>
-
       <div className="content">
         <div className="wrapper-container">
           <div className="small-container">
             <div className="container small">
-              <b> 3years</b> <br />
+              <b>3 years</b> <br />
               Developing Experience
             </div>
             <div className="container small">
@@ -57,4 +56,4 @@ function ContentArea() {
   );
 }
 
-export default ContentArea;
+export default Home;
