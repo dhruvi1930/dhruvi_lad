@@ -21,7 +21,9 @@ function Projects() {
             <span>Styled-Component</span>
             <span>Firebase</span>
           </div>
-          <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          <a href="https://application-tracker-roan.vercel.app/">
+            <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          </a>
         </div>
         <div className="project-wrapper-container">
           <img src={Marry_Me} alt="Marry Me" />
@@ -32,7 +34,9 @@ function Projects() {
             <span>Figma</span>
             <span>Webflow</span>
           </div>
-          <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          <a href="https://github.com/dhruvi1930/Marry-Me">
+            <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          </a>
         </div>
         <div className="project-wrapper-container">
           <img src={Black_Friday_Trends} alt="Black Friday Trends" />
@@ -44,7 +48,9 @@ function Projects() {
             <span>Pandas</span>
             <span>matplotlib</span>
           </div>
-          <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          <a href="https://github.com/dhruvi1930/Black-Friday-Trends-in-Canada">
+            <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          </a>
         </div>
         <div className="project-wrapper-container">
           <img src={ImaginifyAI} alt="ImaginifyAI" />
@@ -54,7 +60,9 @@ function Projects() {
             <span>MongoDB</span>
             <span>Node Js</span>
           </div>
-          <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          <a href="https://github.com/dhruvi1930/ImaginifyAI">
+            <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          </a>
         </div>
         <div className="project-wrapper-container">
           <img src={Jelly_Beans} alt="Jelly Beans" />
@@ -64,7 +72,9 @@ function Projects() {
             <span>HTML</span>
             <span>Css</span>
           </div>
-          <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          <a href="https://dhruvi1930.github.io/Jelly_Beans_React/">
+            <FontAwesomeIcon icon={faLink} className="link-icon" size="xs" />
+          </a>
         </div>
       </div>
     </div>
